@@ -1,10 +1,5 @@
-import { MetaFunction } from "remix";
+import { LoaderFunction, redirect } from "remix";
 
-export const meta: MetaFunction = () => {
-  return { title: "Index | Studio Ghibli", description: "Desc" };
+export const loader: LoaderFunction = async () => {
+  return redirect("/films");
 };
-
-// CLIENT SIDE
-export default function Index() {
-  return <div>Hello</div>;
-}
