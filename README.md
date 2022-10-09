@@ -1,5 +1,7 @@
 # remix-ghibli-web
 
+**docs https://remix.run/ <br>**
+
 **install node modules:** <br> _- npm or yarn_ <br>
 **run local:** <br> _- npm run dev or yarn dev_
 
@@ -15,5 +17,3 @@ https://youtu.be/HOlYQu_r4Io
 
 Thank you <br>
 Marius Espejo
-
-https://remix.run/
